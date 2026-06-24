@@ -1,0 +1,17 @@
+.env
+
+# Bloquear directorios locales de Terraform (.terraform contiene los providers descargados)
+.terraform/
+
+# Bloquear los archivos de estado (¡Tienen datos sensibles en texto plano!)
+*.tfstate
+*.tfstate.*
+
+# Bloquear archivos de variables que contengan contraseñas o llaves secretas
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+
+# Bloquear logs de crash
+crash.log

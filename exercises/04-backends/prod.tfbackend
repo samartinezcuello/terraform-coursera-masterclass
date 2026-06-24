@@ -1,0 +1,3 @@
+bucket = "terraform-course-remote-backend-santiago"
+key = "04-backends/prod/state.tfstate"
+region = "eu-west-1"
