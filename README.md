@@ -31,3 +31,4 @@ Casos de uso reales e infraestructuras integradas:
 ## 🔒 Buenas Prácticas Aplicadas
 * **Seguridad:** Uso estricto de `.gitignore` para evitar la filtración de credenciales de AWS o archivos de estado local (`.tfstate`).
 * **Código DRY (Don't Repeat Yourself):** Uso intensivo de variables y módulos para garantizar la reusabilidad del código.
+
