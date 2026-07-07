@@ -1,6 +1,6 @@
 locals {
   instance_type = "t3.micro"
-  project_name = "13-local-modules"
+  project_name  = "13-local-modules"
 }
 
 data "aws_ami" "ubuntu" {
