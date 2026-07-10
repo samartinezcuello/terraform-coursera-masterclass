@@ -18,7 +18,7 @@ provider "aws" {
   default_tags {
     tags = {
       ManagedBy = "Terraform"
-      Project = "proj03-import-lambda"
+      Project   = "proj03-import-lambda"
     }
   }
 }

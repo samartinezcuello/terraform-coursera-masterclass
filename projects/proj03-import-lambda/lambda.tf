@@ -43,7 +43,7 @@ resource "aws_lambda_function_url" "this" {
 # }
 
 resource "aws_lambda_permission" "allow_public_function_invoke" {
-  action                 = "lambda:InvokeFunction"
-  function_name          = aws_lambda_function.this.function_name
-  principal              = "*"
+  action        = "lambda:InvokeFunction"
+  function_name = aws_lambda_function.this.function_name
+  principal     = "*"
 }
